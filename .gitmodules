@@ -1,0 +1,6 @@
+[submodule "topics/Deep-Into-RocksDB"]
+	path = topics/Deep-Into-RocksDB
+	url = https://github.com/Shylock-Hg/Deep-Into-RocksDB.git
+[submodule "themes/hugo-ivy"]
+	path = themes/hugo-ivy
+	url = https://github.com/yihui/hugo-ivy.git

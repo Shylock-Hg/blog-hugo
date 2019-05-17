@@ -1,0 +1,15 @@
+language : go
+os : linux
+services: docker
+
+script :
+    - make
+    - docker build -t shylockhg/blog .
+
+# deploy to netlify.com automatically
+deploy:
+  - provider: script
+    script: ./.travis-ci/deploy-docker.sh
+    on:
+        branch: master
+    skip_cleanup: true

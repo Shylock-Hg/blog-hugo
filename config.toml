@@ -1,0 +1,41 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "Shylock Hg"
+theme = "hugo-ivy"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+preserveTaxonomyNames = true
+footnotereturnlinkcontents = "↩"
+
+[permalinks]
+    post = "/post/:year/:month/:day/:slug/"
+    note = "/note/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+[[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 4
+[[menu.main]]
+    name = "Subscribe"
+    url = "/index.xml"
+[[menu.main]]
+    name = "Topics"
+    url = "/topics/"
+
+[params]
+    description = "My own blog powered by Hugo and Ivy."
+    footer = "&copy; [Shylock Hg](https://shylock.netlify.com) 2017 | [Github](https://github.com/shylock-hg) | [Email](mailto:tcath2s@gmail.com)"
+
+  highlightjsVersion = "9.12.0"
+  highlightjsCDN = "//cdn.bootcss.com"
+  highlightjsLang = ["r", "yaml", "tex"]
+  highlightjsTheme = "github"
