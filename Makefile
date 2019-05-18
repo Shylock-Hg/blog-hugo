@@ -10,8 +10,7 @@ all: build require
 
 require:
 	pip install --user -r topics/Deep-Into-RocksDB/requirements.txt
-	git clone https://github.com/gohugoio/hugo.git
-	cd hugo && go install && cd ..
+	./.travis-ci/install-hugo.sh
 
 build: $(DIR_TOPICS) require
 	hugo
