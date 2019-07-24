@@ -30,6 +30,9 @@ footnotereturnlinkcontents = "↩"
 [[menu.main]]
     name = "Topics"
     url = "/topics/"
+[[menu.main]]
+    name = "Resume"
+    url = "/resume/"
 
 [params]
     description = "My own blog powered by Hugo and Ivy."

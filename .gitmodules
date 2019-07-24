@@ -4,3 +4,6 @@
 [submodule "themes/hugo-ivy"]
 	path = themes/hugo-ivy
 	url = https://github.com/yihui/hugo-ivy.git
+[submodule "topics/resume"]
+	path = topics/resume
+	url = https://github.com/Shylock-Hg/resume.git
