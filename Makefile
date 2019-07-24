@@ -20,7 +20,7 @@ build: $(DIR_TOPICS) require
 	$(MAKE) -C topics/Deep-Into-RocksDB html
 	$(CP) -r topics/Deep-Into-RocksDB/build/html $(DIR_SITE)/topics/deep-into-rocksdb
 	$(MAKE) -C topics/resume
-	$(MKDIR) -p $(DIR_SITE)/resume/zh && $(CP) -r topics/resume/dist/zh.html $(DIR_SITE)/resume/zh
+	$(MKDIR) -p $(DIR_SITE)/resume/zh && $(CP) -r topics/resume/dist/zh.html $(DIR_SITE)/resume/zh/index.html
 
 $(DIR_TOPICS):
 	$(MKDIR) -p "$@"
