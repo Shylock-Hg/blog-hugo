@@ -3,7 +3,7 @@ os : linux
 services: docker
 
 script :
-    - make
+    - make require_apt && make
     - docker build -t shylockhg/blog .
 
 # deploy to netlify.com automatically

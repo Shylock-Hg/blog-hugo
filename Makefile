@@ -6,7 +6,7 @@ DIR_TOPICS = $(DIR_SITE)/topics
 
 .PHONY: all build clean require require_apt
 
-all: build require
+all: build
 
 require:
 	./topics/resume/.ci/install-requirements.sh
@@ -18,7 +18,7 @@ require_apt:
 	pip install --user -r topics/Deep-Into-RocksDB/requirements.txt
 	./.travis-ci/install-hugo-apt.sh
 
-build: $(DIR_TOPICS) require
+build: $(DIR_TOPICS)
 	hugo
 	$(MKDIR) -p $(DIR_SITE)/assets/images
 	$(CP) -r resources/_gen/images/posts $(DIR_SITE)/assets/images
