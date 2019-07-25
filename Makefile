@@ -4,7 +4,7 @@ MKDIR = mkdir
 DIR_SITE = public
 DIR_TOPICS = $(DIR_SITE)/topics
 
-.PHONY: all build clean
+.PHONY: all build clean require require_apt
 
 all: build require
 
@@ -12,6 +12,11 @@ require:
 	./topics/resume/.ci/install-requirements.sh
 	pip install --user -r topics/Deep-Into-RocksDB/requirements.txt
 	./.travis-ci/install-hugo.sh
+
+require_apt:
+	./topics/resume/.ci/install-requirements.sh
+	pip install --user -r topics/Deep-Into-RocksDB/requirements.txt
+	./.travis-ci/install-hugo-apt.sh
 
 build: $(DIR_TOPICS) require
 	hugo
