@@ -4,7 +4,7 @@ MKDIR = mkdir
 DIR_SITE = public
 DIR_TOPICS = $(DIR_SITE)/topics
 
-.PHONY: all build clean require require_apt
+.PHONY: all build clean require require_netlify
 
 all: build
 
