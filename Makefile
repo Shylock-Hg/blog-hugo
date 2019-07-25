@@ -13,10 +13,9 @@ require:
 	pip install --user -r topics/Deep-Into-RocksDB/requirements.txt
 	./.travis-ci/install-hugo.sh
 
-require_apt:
+require_netlify:
 	./topics/resume/.ci/install-requirements.sh
 	pip install --user -r topics/Deep-Into-RocksDB/requirements.txt
-	./.travis-ci/install-hugo-apt.sh
 
 build: $(DIR_TOPICS)
 	hugo
@@ -25,7 +24,7 @@ build: $(DIR_TOPICS)
 	$(MAKE) -C topics/Deep-Into-RocksDB html
 	$(CP) -r topics/Deep-Into-RocksDB/build/html $(DIR_SITE)/topics/deep-into-rocksdb
 	$(MAKE) -C topics/resume
-	$(MKDIR) -p $(DIR_SITE)/resume/zh && $(CP) -r topics/resume/dist/zh.html $(DIR_SITE)/resume/zh/index.html
+	$(MKDIR) -p $(DIR_SITE)/resume/zh && $(CP) topics/resume/dist/zh.html $(DIR_SITE)/resume/zh/index.html && $(CP) topics/resume/dist/main.css $(DIR_SITE)/resume/zh/
 
 $(DIR_TOPICS):
 	$(MKDIR) -p "$@"
