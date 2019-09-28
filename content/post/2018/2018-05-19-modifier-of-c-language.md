@@ -12,8 +12,8 @@ comments: true
 
 `auto` default for stack variable means auto-release.
 
-`static` store local variable to staic memory area, or limit global variable access.
+`static` store local variable to static memory area, or limit global variable access.
 
 `register` alloc local variable to cpu register.
 
-`extern` declare global symbol be accessable by external(default for function).
+`extern` declare global symbol be accessible by external(default for function).

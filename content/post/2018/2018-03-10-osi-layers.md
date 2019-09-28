@@ -16,6 +16,6 @@ comments: true
 |Network|packet|IP|address resolution and routing|
 |Transport|segment|UDP,TCP||
 |PORT||||
-|Sessiong|report|socket||
+|Session|report|socket||
 |Presentation|report|MIME,SSL,TLS||
 |Application|report|HTTP,IMAP||

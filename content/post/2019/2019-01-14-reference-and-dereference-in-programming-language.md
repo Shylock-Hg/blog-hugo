@@ -24,9 +24,9 @@ data_t &r = data;  //!< reference `data`
 r;  //!< automatic dereference `data`
 ```
 
-## The diffrence of Pointer, Reference
+## The difference of Pointer, Reference
 
-|Diffrence            |Pointer|Reference|
+|Difference           |Pointer|Reference|
 |:--                  |:--    |:--      |
 |Automatic dereference|N      |Y        |
 |Immutable            |N      |Y        |
@@ -34,7 +34,7 @@ r;  //!< automatic dereference `data`
 ## The Ownership and Borrowing
 
 The Ownership and Borrowing is the concepts in RUST programming language.But they are related to reference for that reference is one implementation of Borrowing.<br/>
-The main diffrence of Ownership and Borrowing is the `Drop` trait, Owner implement it but Borrower not.There are some samilar concepts in other languages, such as *Smart Pointer*(One implementations of Ownership) and reference(One implementation of Borrowing) in c++, through they distinguish Ownership by *destructor*.<br/>
+The main difference of Ownership and Borrowing is the `Drop` trait, Owner implement it but Borrower not.There are some same concepts in other languages, such as *Smart Pointer*(One implementations of Ownership) and reference(One implementation of Borrowing) in c++, through they distinguish Ownership by *destructor*.<br/>
 There are some typical implementations of Ownership and Borrowing in RUST as bellow:<br/>
 
 |Owner                  |Borrower                      |

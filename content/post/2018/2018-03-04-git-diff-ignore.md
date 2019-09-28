@@ -20,4 +20,4 @@ comments: true
 *.log diff=nodiff
 ```
   
-  The grammer is same as *.gitignore* file,and it make *git diff* ignore the files matched.
+  The syntax is same as *.gitignore* file,and it make *git diff* ignore the files matched.

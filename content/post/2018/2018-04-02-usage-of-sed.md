@@ -16,4 +16,4 @@ comments: true
 ## Characters substitution
 
   - `sed "3,5s/pattern/object/1" inputfile > outputfile`:replace the first matched characters in 3-5th lines by `pattern` with `object`. <br/>
-  - `sed "s/pattern/object/3g" inputfile > outputfile`:replace the 3-infinate matched characters in each line by `pattern` with `object`. <br/>
+  - `sed "s/pattern/object/3g" inputfile > outputfile`:replace the 3-infinite matched characters in each line by `pattern` with `object`. <br/>

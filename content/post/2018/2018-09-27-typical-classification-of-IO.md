@@ -10,7 +10,7 @@ comments: true
 
 master <--IO--> slave
 
-- blocking or noblocking, if master cant't do anything when IO.
+- blocking or noblocking, if master can't do anything when IO.
 - synchronous or asynchronous, if master need to query state of IO.
 
 IO, data from one place to another.

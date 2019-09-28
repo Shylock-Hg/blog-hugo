@@ -41,6 +41,6 @@ ldist = FreqDist[len(w) for w in text]
 #get bigrams of list of words
 pairs = bigrams(['word0','word1','word2','word3'])
 
-#get collocatios of text
-col = text.collocations()
+#get collection of text
+col = text.collections()
 ```

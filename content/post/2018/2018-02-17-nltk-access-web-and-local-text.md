@@ -21,7 +21,7 @@ url = 'http://www.gutenberg.org/files/2554/2554.txt'
 raw = urllib.urlopen(url).read()
 
 #with proxy
-prixy = {'http':'http://www.yourproxy.com:443'}
+proxy = {'http':'http://www.yourproxy.com:443'}
 raw = urllib.urlopen(url,proxies=proxy).read()
 ```
 
@@ -136,7 +136,7 @@ raw = open(path,'rU').read()
 
 ## 6.Handling PDF,MSWord & other Binary Format
 
-  Use the third libaries or extract by hand.
+  Use the third library or extract by hand.
 
 ## 7.Handling User Input
 

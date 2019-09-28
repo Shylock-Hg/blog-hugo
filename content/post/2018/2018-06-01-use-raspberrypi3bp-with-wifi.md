@@ -12,7 +12,7 @@ refer raspberrypi.org
 
 ## start ssh service
 
-1. create empty **file** `ssh` in sdcard **boot** partion.
+1. create empty **file** `ssh` in sdcard **boot** partition.
 2. create empty **folder** `ssh` in sdcard **root-fs**.
 
 ## enable wifi connection

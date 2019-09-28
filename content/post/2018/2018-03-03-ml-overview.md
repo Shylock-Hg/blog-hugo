@@ -13,17 +13,17 @@ comments: true
 > A computer program is said to learn from experience E with respect to some task T and some performance measure P,if its performance on T,as measured by P,improves with experience E.
 > - Tom Mitchell,1997
 
-  So the essential of machine learning is imporving P on T by learning from E,not just E.
+  So the essential of machine learning is improving P on T by learning from E,not just E.
 
-## Premise to apply Maching Learning
+## Premise to apply Machine Learning
 
-  1. To complex for tranditional algorithm.
+  1. To complex for traditional algorithm.
   2. Adjust fluctuating environments.
   3. Getting insights about complex problems and large amounts of data.
 
   Tips:No silver bullet.Machine Learning is not always best method to any problem.
 
-## Categories of Maching Learning
+## Categories of Machine Learning
 
   1. supervised,unsupervised,semisupervised and reinforcement learning. 
   2. incremental versus batch learning.
@@ -46,7 +46,7 @@ comments: true
 ### Unsupervised Learning
 
   In unsupervised learning,the training data you feed to the algorithm not include the desired output.It learn the inner structure of input data.
-  The typical unsuperviese learning algorithm:
+  The typical unsupervised learning algorithm:
   - Clustering
     - k-Means
     - HCA(Hierarchical Cluster Analysis)
@@ -70,7 +70,7 @@ comments: true
 
 ## Batch and Incremental Learning
  
-  Whether or not can learn incrementally from a stream of incomming data.
+  Whether or not can learn incrementally from a stream of incoming data.
 
 ### Batch Learning
 
@@ -79,7 +79,7 @@ comments: true
 
 ### Incremental Learning
 
-  Incremental learning: you train the system incrementally by feeding it data instances sequentially, either individually or by small  groups called **mini-batchs**.
+  Incremental learning: you train the system incrementally by feeding it data instances sequentially, either individually or by small  groups called **mini-batch**.
   **Learning Rate**:how fast the system adapt to changing data.
   Challenge: bad data is fed to the system.
 

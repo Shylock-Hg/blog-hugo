@@ -17,4 +17,4 @@ comments: true
 |nltk.corpus.names|The first names categoried by gender that stored in two different files.|
 |nltk.corpus.cmudict|The pronouncing dictionary:('word',[phonetic codes])|
 |nltk.corpus.swadesh|The common words in several languages|
-|nltk.corpus.toolbox|The tookbox of lexicons|
+|nltk.corpus.toolbox|The toolbox of lexicons|
