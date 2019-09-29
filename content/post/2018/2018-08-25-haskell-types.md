@@ -12,7 +12,7 @@ comments: true
 - Char
 - Number
 
-## Conbination Types
+## Combination Types
 
 ### List
 

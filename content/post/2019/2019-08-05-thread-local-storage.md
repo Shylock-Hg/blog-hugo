@@ -13,7 +13,7 @@ Such as below:
 
 ```c
 __thread int i;
-extern __thread FILE* f;  // Just pointer, need create strcuture on each thread
+extern __thread FILE* f;  // Just pointer, need create structure on each thread
 static __thread char* s;  // Just pointer need create string on each thread
 int func(void) {
     static __thread int b;

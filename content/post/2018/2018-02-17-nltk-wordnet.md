@@ -12,7 +12,7 @@ comments: true
 
 ## 2.Senses and Synonyms
 
-  Accesing synonyms as bellow:
+  Accessing synonyms as bellow:
 
 ```python
 from nltk.corpus import wordnet
@@ -103,7 +103,7 @@ wordnet.synset('walk.v.01').entailments()
 ```
 
 ### 4.3.The relationship of antonymy
-  To accesing antonym as bellow:
+  To accessing antonym as bellow:
 
 ```python
 from nltk.corpus import wordnet
@@ -122,7 +122,7 @@ dir(wordnet.synset('harmony.n.02'))
 ## 6.Semantic Similarity
 ### 6.1.Common Father's Depth
   If two synset share a very specific hypernym,they are very semantic similary.
-  Acessing the lowest common father as bellow:
+  Accessing the lowest common father as bellow:
 
 ```python
 from nltk.corpus import wordnet
@@ -135,8 +135,8 @@ right_whale.lowest_common_hypernyms(orca)
 #get the depth of common father in wordnet
 right_whale.lowest_common_hypernyms(orca).min_depth()
 ```
-### 6.2.Lenght of Connection
-  If two word connected in a short way in the wordnet,the are very semantic similary.
+### 6.2.Length of Connection
+  If two word connected in a short way in the wordnet,the are very semantic similar.
   Accessing the length of connection of two words as bellow:
 
 ```python

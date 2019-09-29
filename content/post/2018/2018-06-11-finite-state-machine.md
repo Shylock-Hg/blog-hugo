@@ -8,7 +8,7 @@ comments: true
 
 ## finite state machine
 
-  It can transfer to another state frome one when getting input from outside, and the number of state is finite.
+  It can transfer to another state from one when getting input from outside, and the number of state is finite.
 
 ## implement
 

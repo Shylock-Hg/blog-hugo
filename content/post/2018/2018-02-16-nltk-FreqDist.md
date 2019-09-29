@@ -27,12 +27,12 @@ fdist = FreqDist([items])
 |fdist['sample']|return the count of 'sample'|
 |fdist.freq('sample')|return the frequency of 'sample'|
 |fdist.N()|total number of samples|
-|fdist.keys()|renturn the samples sorted by decreasing frequency|
+|fdist.keys()|return the samples sorted by decreasing frequency|
 |for sample in fdist|iterate samples in order of decreasing frequency|
 |fdist.max()|return the sample with max count|
 |len(fdist)|return the count of items of freqdist |
 |fdist.tabulate()|display a tab of freqdist|
-|fdist.plot()|display a figture of freqdist|
+|fdist.plot()|display a figure of freqdist|
 |fdist1 < fdist2|test if samples in fdist1 occur less than in fdist2|
 
 ## 2.ConditionalFreqDist
@@ -48,7 +48,7 @@ cfd = ConditionalFreqDsit(
           )
 ```
 
-  With Conditional Frequency Distribution,you can count multi-dimention(each cond) item.
+  With Conditional Frequency Distribution,you can count multi-dimension(each cond) item.
 
 ## API of ConditionalFreqDist
 
@@ -59,7 +59,7 @@ cfd = ConditionalFreqDsit(
 |cfd[condition]|return the frequency distribution of this condition|
 |cfd[condition][sample]|return the frequency of this sample in this condition|
 |cfd.tabulate()|print the tab of cfd|
-|cfd.tabulate(samples,comditions)|print the tab of these samples in these conditions|
+|cfd.tabulate(samples,conditions)|print the tab of these samples in these conditions|
 |cfd.plot()|plot the conditional frequency distribution|
 |cfd.plot(samples,conditions)|plot the cfd of these samples in these conditions|
-|cfd1 < cfd2|tese if the frequency in cfd1 less than cfd2|
+|cfd1 < cfd2|test if the frequency in cfd1 less than cfd2|

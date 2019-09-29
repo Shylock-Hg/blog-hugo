@@ -17,7 +17,7 @@ Arch Linux
 3. Run the install script by `sudo sh script.run`.
 4. Run `nvidia-modprobe` and `dmesg` to verify installation.
 
-*note:need to diable nouveau driver by the script if installed.*
+*note:need to disable nouveau driver by the script if installed.*
 
 ## Install TensorFlow-cuda
 

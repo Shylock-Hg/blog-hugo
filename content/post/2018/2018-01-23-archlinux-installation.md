@@ -32,15 +32,15 @@ dhcpcd wlan
 ping google.com
 ```
 
-## Simple partion
+## Simple partition
 
-partion|format
--------|------
-boot   |EFI
-swap   |Linux Swap
-\      |Linux Filesystem
+partition|format
+---------|------
+boot     |EFI
+swap     |Linux Swap
+\        |Linux Filesystem
 
-Then format&mount partions:
+Then format&mount partitions:
 
 
 ```bash

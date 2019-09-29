@@ -14,10 +14,10 @@ comments: true
   3. make change.
   4. `git status`:check file changed by not staged.
   5. `git checkout <file>`:reset file to last commit.
-  6. `git diff [file]`:check difference of file bwteen staged
+  6. `git diff [file]`:check difference of file between staged
   7. `git add [file ...]`:snapshots the files in preparation for versioning.
-  8. `git reset [file ...]`:unstages the file,but preserve contents. 
-  9. `git commit -m "[description]"`:records file snapshots permannently in version history.
+  8. `git reset [file ...]`:unstage the file,but preserve contents. 
+  9. `git commit -m "[description]"`:records file snapshots permanently in version history.
   10. back to 3.
 
 ## With remote

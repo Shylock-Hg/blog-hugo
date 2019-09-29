@@ -13,7 +13,7 @@ The HTTP proxy is common used to access private network.Many browsers support th
 
 ## HTTP proxy in shell
 
-Many tools in linux will access network in shell environment, such as `curl`, `wget` and other network application run from shell.So we need the HTTP proxy in shell environment when want to access private newwork from shell tools.
+Many tools in linux will access network in shell environment, such as `curl`, `wget` and other network application run from shell.So we need the HTTP proxy in shell environment when want to access private network from shell tools.
 
 This is simple to enable this as below:
 ```bash
@@ -27,4 +27,4 @@ export http_proxy='http://<username>:<password>@<proxy>.<com>:[port]'
 export https_proxy='https://<username>:<password>@<proxy>.<com>:[port]'
 ```
 
-You can also write them to configuration files such as `~/.bashrc` to persiste these.
+You can also write them to configuration files such as `~/.bashrc` to persist these.

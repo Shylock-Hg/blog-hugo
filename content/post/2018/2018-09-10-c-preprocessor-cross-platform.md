@@ -16,7 +16,7 @@ comments: true
 
 ## Macro of OS
 
-|OS  |Macro|Prerequirements|
+|OS  |Macro|Pre-requirements|
 |:-- |:--  |:--            |
 |linux|__linux__,__unix__,__gnu_linux__|unstd.h|
 |macos|__APPLE__|some headers|
